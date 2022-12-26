@@ -1,0 +1,12 @@
+void setup(){
+	//put your setup code here, to run once;
+	pinMode(13,OUTPUT);// select pin 13 on the board and the LED is an output
+}
+void loop(){
+	// put your mian code here to run repeatedly
+	digitalWrite(13,HIGH); // power pin hole
+	delay(1000);// hold the power for about 1 second
+	digitalWrite(13,LOW);// remove power from pin hole 
+	delay(1000);// hold the removal for about 1 second
+	
+}// continue to load code
